@@ -65,6 +65,7 @@
     position: relative;
     top:18px;
     left: 10px;
+    align-items: center;
 }
 .vids{
     position: relative;
@@ -79,7 +80,7 @@
 
 .forecast{
     align-items: center;
-    width:40%;
+    width:25%;
     margin:auto;
 }
 
@@ -236,4 +237,57 @@ input[type=button], input[type=submit], input[type=reset]{
     top:0;
     left: 10px;
   }
+.photos{
+    position: relative;
+    top:18px;
+    left:40px;
+    width: 300px;
+    height:400px;
+    float:left;
+}
+.bio{
+    position:relative;
+    top:18px;
+    left:350px;
+    
+}
+.headingthree{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:30px;
+    left: 60px;
+    max-width: 750px;
+   
+    
+
+    
+}
+.descbox{
+    position: relative;
+    top: 25px;
+    float:left;
+}
+.descboxtwo{
+    position: relative;
+    top: 25px;
+    float:right;
+    margin-right:250px ;
+}
+.descboxthree{
+    position: relative;
+    top: 25px;
+    float:right;
+    margin-right:600px ;
+
+}
+.headingfour{font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:30px;
+    left: 60px;
+    max-width: 500px;}
+
+    .texts{
+        position:relative;
+        height:500px;
+    }
 
