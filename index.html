@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="msuwxstyle.css">
+        <meta charset="utf-8">
+        
+        <title>MSU Meteorology</title>
+
+        <div id="banner">
+            <div class="inline-block">
+                <img class = "logo" src="img\Drawing-47.sketchpad (1).png"  alt="logo">
+                <h1>Morehead State University Meteorology Club</h1>
+                <div class="homelinks">
+                    <a class = "button" href="msuwxabout.html">About</a>
+                    <a class = "button" href="forecastmsuwx.html">Forecast</a>
+                    <a class = "button" href="membersmsuwx.html">Members</a>
+ 
+
+
+                    <a class = "button" href="https://www.noaa.gov/">NOAA</a>
+                    </div>
+            </div>
+
+        </div>
+    </head>
+    <body>
+        <div class="sidenav">
+            <div>
+                <h2 class="news">
+                    Helpful Links
+                </h2>
+            </div>
+            <a href="https://www.noaa.gov/">NOAA</a>
+            <a href="https://www.weather.gov/">NWS</a>
+            <a href="https://www.weather.gov/phi/space">Space Wx</a>
+
+          </div>
+
+          <div class="sidenavtwo">
+            <div>
+                <h2 class="news">
+                    News
+                </h2>
+            </div>
+            <a href="msuwxlinks.html">1.14.24 - New page!</a>
+
+          </div>
+
+
+        <div class="header">
+
+                
+            </div>
+        
+        <div class = "forecastthree">
+            <h2 class="headingtwo">Regional Radar</h2>
+            <iframe class="radars" width="800" height="700" src="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTgyLjgwMiwzOC4wOTRdLCJsb2NhdGlvbiI6Wy04My40MzgsMzguMTc4XSwiem9vbSI6Ny41MDg1ODYwMDM4OTUwMTl9LCJhbmltYXRpbmciOnRydWUsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5Ijp0cnVlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6dHJ1ZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOmZhbHNlLCJvcGFjaXR5Ijp7ImFsZXJ0cyI6MCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MX19" frameborder="0"></iframe>
+            <!--<img src="img/Drawing-50.sketchpad.jpeg" style="width:100%" alt="Error">
+            <iframe class="vids" 
+            src="https://www.youtube.com/embed/mYxHpxkBPz0">
+            </iframe>-->
+        </div>
+            
+        <div class = "slideshowcontainer">
+
+            <div class="mainslides">
+                <div class="numbertext">1 / 3</div>
+                <img src="DSC08952.JPG" style="width:100%">
+              </div>
+
+            <div class="mainslides">
+                <div class="numbertext">2 / 3</div>
+                <img src="DSC08966.JPG" style="width:100%">
+            </div>
+            <div class="mainslides">
+                <div class="numbertext">3 / 3</div>
+                <img src="DSC08993.JPG" style="width:100%">
+            </div>
+           
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+          </div>
+          <script>
+          let slideIndex = 1;
+            showSlides(slideIndex);
+
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              let i;
+            let slides = document.getElementsByClassName("mainslides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+            }
+             slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+
+    </body>
+    <footer>
+        <div class="inline-blocktwo">
+        <p class="headingfive"> DISCLAIMER: WE ARE NOT PROFESSIONALS! We are by no means certified to tell you what the weather will do. We are students wanting to provide additional access to weather related resources. </p>
+        </div>
+    </footer>
+</html>
+
