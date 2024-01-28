@@ -333,7 +333,7 @@ input[type=button], input[type=submit], input[type=reset]{
         width:50%;
         margin: 75px;
 
-        left:20%
+        left:24%
     }
     .buttontwo {
         background-color: #04AA6D; /* Green */
@@ -354,6 +354,6 @@ input[type=button], input[type=submit], input[type=reset]{
 .wxlinks{
     position: relative;
     align-content: center;
-    margin-left:45%;
+    margin-left:40%;
     margin-top: 1%;
 }
