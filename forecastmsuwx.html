@@ -57,6 +57,11 @@
         <a class="buttontwo" onclick="warnings()">warnings</a>
         <a class="buttontwo" onclick="lightning()">Lightning - 2H</a>
         </div>
+        <div class="wxlinks">
+            <a class="buttontwo" onclick="goesone()">GOES-13</a>
+
+
+        </div>
 
         <script>
         function warnings() {
@@ -66,6 +71,8 @@
         function radaroriginal(){document.getElementById("radarz").src = "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTgyLjgwMiwzOC4wOTRdLCJsb2NhdGlvbiI6Wy04My40MzgsMzguMTc4XSwiem9vbSI6Ny41MDg1ODYwMDM4OTUwMTl9LCJhbmltYXRpbmciOnRydWUsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5Ijp0cnVlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6dHJ1ZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOmZhbHNlLCJvcGFjaXR5Ijp7ImFsZXJ0cyI6MCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MX19";}
         
         function lightning(){document.getElementById("radarz").src = "https://www.blitzortung.org/en/Images/image_b_us.png?t=28440253";}
+
+        function goesone(){document.getElementById("radarz").src = "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/cgl/GEOCOLOR/20240332301_GOES16-ABI-cgl-GEOCOLOR-1200x1200.jpg";}
         </script>
 
     </body>
