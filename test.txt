@@ -201,3 +201,8 @@ Hum, Temp, Pressure
 57.02%, 79.70 F, 98.61 kPa, 0s
 57.05%, 79.70 F, 98.62 kPa, 0s
 57.05%, 79.67 F, 98.61 kPa, 0s
+Initializing
+Live Data :)
+[Wicked Witch Test Station] - [5/3/24]
+Hum, Temp, Pressure, Time since Date
+52.00%, 77.45 F, 98.63 kPa, 0s
